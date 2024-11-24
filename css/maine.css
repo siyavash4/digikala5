@@ -1,0 +1,54 @@
+@import "./setting.css";
+@import "./header.css";
+@import"./login.css";
+@import "./story.css";
+@import"./slider.css";
+@import"./story2.css";
+@import"./amazing.css";
+@import"./superamazing.css";
+@import"./imortant.css";
+@import"./category.css";
+div.raightweb{
+    z-index: 3;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ef4056;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    svg{
+        width: 24px;
+         height: 24px;
+          fill: #fff;
+    }
+}
+div.leftweb{
+    z-index: 4;
+    width: 140px;
+    height: 55px;
+    background-color: #029a49;
+    border-radius: 40px;
+    position: fixed;
+    right: 90%;
+   bottom: 5%;
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   span{
+    font-family: iranyekan;
+    font-size: 17px;
+    color: #fff;
+   }
+   svg{
+    width: 24px;
+    height: 24px;
+     fill:#fff;
+   }
+}

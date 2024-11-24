@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+div.parent{
+    width: 30%;
+    height: 500px;
+    margin: 100px auto;
+    border-radius: 8px;
+    border: 2px solid #e0e0e2;
+    box-sizing: border-box;
+}
+div.parent>svg{
+    width: 25%;
+    margin: 20px 174px;
+}
+div.parent>h1.firstchild{
+    font-size: 23px;
+    font-weight: 10;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+ div.parent>p.subchild{
+    padding-top: 30px ;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    font-size: 13px;
+ }
+ div.parent>p.nexchild{
+    font-weight: 50;
+    padding-right: 30px;
+    padding-right: 30px;
+    font-size: 13px;
+ }
+ div.parent>form>div.childdiv{  
+   width: 85%;
+   height: 160px;
+   margin: 30px auto 0 auto;
+ }
+
+ div.parent>form>div.childdiv>div.subchildiv{
+    width: 100%;
+    height: 55px;
+    margin: 30px auto;
+    transition: 500ms;
+ }
+ div.parent>form>div.childdiv>div.subchildiv>input[type="text"]{
+   width: 100%;
+   height: 100%;
+   outline: unset;
+   border: 1px solid rgb(90, 162, 245);
+   border-radius: 10px;
+   box-sizing: border-box;
+ }
+ div.parent>form>div.childdiv>div.subchildiv>p.textchild{
+  display: none;
+ }
+ div.parent>form>div.childdiv>div.subchildiv:hover>input[type="text"]{
+   border: 1px solid crimson;
+ }
+ div.parent>form>div.childdiv>div.subchildiv:hover>p.textchild{
+   color:crimson;
+   font-size: 15px;
+   margin: 10px;
+   display: block;
+ }
+ div.parent>form>div.childdiv>div.finishcilddiv{
+   width: 100%;
+   height: 55px;
+ }
+ div.parent>form>div.childdiv>div.finishcilddiv>input[type="submit"]{
+   all: unset;
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+   background-color: #ef4056;
+   color: #ffffff;
+   
+   text-align: center;
+ }
+ div.parent>div.text{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 5px 5px;
+ }
+
+div.parent>div.text>a{
+  text-decoration: none;
+}
+/* cssgrup */
+div.parent>h1.firstchild,div.parent>p.subchild,div.parent>p.nexchild,div.parent>form>div.childdiv>div.subchildiv:hover>p.textchild,div.parent>form>div.childdiv>div.finishcilddiv>input[type="submit"],div.parent>div.text>p.first,div.parent>div.text>a{
+  font-family: iranyekan;
+}
+div.parent>div.text>a:visited{
+  color: purple;}
+
+div.parent>div.text>p.first,div.parent>div.text>a{
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
